@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent: #22d3ee; /* cyan - đổi màu chủ đạo ở đây */
+  --color-bg: #0b1117;
+  --color-card: #121b24;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: #e5edf3;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
