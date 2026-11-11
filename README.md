@@ -1,23 +1,31 @@
-# Portfolio – Bùi Hải Đăng
+<div align="center">
 
-React + Vite + Tailwind CSS. Toàn bộ nội dung nằm trong `src/data.js`.
+# Bùi Hải Đăng
+
+**Fullstack Node.js Developer** · Sinh viên Kỹ thuật phần mềm, FPT University
+
+🌐 **[buihaidang.id.vn](https://buihaidang.id.vn)** · 💻 [GitHub](https://github.com/NOXELUM)
+
+![Preview](docs/preview.png)
+
+</div>
+
+## Về trang này
+
+Đây là website portfolio cá nhân của mình, giới thiệu về bản thân, kỹ năng và các dự án đã làm.
+
+## Công nghệ
+
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
 
 ## Chạy trên máy
 
 ```bash
 npm install
-npm run dev      # mở http://localhost:5173
+npm run dev
 ```
 
-## Sửa nội dung
-
-- `src/data.js`: tên, giới thiệu, email, kỹ năng, dự án (tìm chữ `TODO`)
-- `public/cv.pdf`: bỏ file CV của bạn vào đây
-- `public/projects/`: bỏ ảnh chụp project, rồi điền `image: '/projects/ten-anh.png'`
-- `src/index.css`: đổi màu chủ đạo (`--color-accent`)
-
-## Deploy
-
-1. Đẩy code lên GitHub
-2. Vào vercel.com → Add New Project → chọn repo → Deploy
-3. Vercel → Settings → Domains → thêm `buihaidang.id.vn`, làm theo DNS Vercel chỉ dẫn
+Nội dung trang được chỉnh trong `src/data.js`.
